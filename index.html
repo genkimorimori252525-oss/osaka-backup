@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>osaka-backup</title>
+<style>
+  body { max-width: 40rem; margin: 2rem auto; padding: 0 1rem; font-family: system-ui, sans-serif; line-height: 1.6; color: #222; background: #fff; }
+  h1 { font-size: 1.5rem; }
+</style>
+</head>
+<body>
+<h1>osaka-backup</h1>
+<p>A personal backup tool with a single user: its owner. After each session on the owner's
+own computer, it encrypts the owner's backup (7-Zip, AES-256) and stores it in the owner's
+own Google Drive with <a href="https://rclone.org/">rclone</a>.</p>
+<p>It asks Google only for the <code>drive.file</code> scope, so it can see and change only the
+files it has created itself. It cannot see anything else in the Drive.</p>
+<p>It is not offered to anyone else, and it has no other users.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+<hr>
+<p lang="ja">持ち主ひとりだけが使う、控えの道具です。持ち主の PC で控えを暗号化し、持ち主の Google Drive に置きます。
+Google に求める権限は <code>drive.file</code> だけで、この道具が自分で作ったファイルにしか触れません。</p>
+</body>
+</html>
